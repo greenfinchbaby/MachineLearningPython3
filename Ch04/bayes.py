@@ -77,12 +77,12 @@ def testingNB():
 
 def textParse(bigString):    #input is big string, #output is word list
     import re
-    listOfTokens = re.split(r'\W*', bigString)
+    listOfTokens = re.split(r'\W+', bigString)
     return [tok.lower() for tok in listOfTokens if len(tok) > 2] 
     
 def spamTest():
     docList=[]; classList = []; fullText =[]
-    for i in range(1,26):
+    for i in range(1, 26):
         wordList = textParse(open('email/spam/%d.txt' % i, 'rb').read().decode('GBK', 'ignore'))
         docList.append(wordList)
         fullText.extend(wordList)
@@ -92,9 +92,9 @@ def spamTest():
         fullText.extend(wordList)
         classList.append(0)
     vocabList = createVocabList(docList)#create vocabulary
-    trainingSet = range(50); testSet=[]           #create test set
+    trainingSet = list(range(50)); testSet=[]           #create test set
     for i in range(10):
-        randIndex = int(random.uniform(0,len(trainingSet)))
+        randIndex = int(random.uniform(0, len(trainingSet)))
         testSet.append(trainingSet[randIndex])
         del(trainingSet[randIndex])  
     trainMat=[]; trainClasses = []
