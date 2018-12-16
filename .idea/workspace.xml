@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="763369ba-26cb-4b5d-902c-30c3ec92cac0" name="Default Changelist" comment="">
+    <list default="true" id="763369ba-26cb-4b5d-902c-30c3ec92cac0" name="Default Changelist" comment="Finished Chapter5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ch05/logRegres.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ch05/logRegres.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ch06/svmMLiA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ch06/svmMLiA.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,29 +13,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch04/bayes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="172" selection-start-line="172" selection-end-line="172" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch04/EXTRAS/monoDemo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ch05/logRegres.py">
+        <entry file="file://$PROJECT_DIR$/Ch06/svmMLiA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="107" column="26" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
+            <state relative-caret-position="192">
+              <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+              <folding>
+                <element signature="e#98#117#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,6 +40,7 @@
       <list>
         <option value="$PROJECT_DIR$/Ch04/bayes.py" />
         <option value="$PROJECT_DIR$/Ch05/logRegres.py" />
+        <option value="$PROJECT_DIR$/Ch06/svmMLiA.py" />
       </list>
     </option>
   </component>
@@ -78,6 +64,11 @@
             </path>
             <path>
               <item name="LearnMachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnMachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnMachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -93,10 +84,10 @@
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings module-name="LearnMachineLearning" is-module-sdk="true" working-directory="$PROJECT_DIR$/Ch05">
+      <console-settings module-name="LearnMachineLearning" is-module-sdk="true" working-directory="$PROJECT_DIR$/Ch06">
         <option name="myUseModuleSdk" value="true" />
         <option name="myModuleName" value="LearnMachineLearning" />
-        <option name="myWorkingDirectory" value="$PROJECT_DIR$/Ch05" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$/Ch06" />
       </console-settings>
     </option>
   </component>
@@ -229,14 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544795578560</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished Chapter5">
+      <created>1544802279803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544802279803</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="279" y="0" width="1920" height="1040" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968051" visible="true" weight="0.18081181" />
-      <window_info id="Structure" order="1" sideWeight="0.50319487" side_tool="true" visible="true" weight="0.18081181" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49361023" visible="true" weight="0.18081181" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5063898" side_tool="true" visible="true" weight="0.18081181" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -247,8 +245,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32932165" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002636" side_tool="true" weight="0.31509846" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49973643" visible="true" weight="0.31509846" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007907" side_tool="true" weight="0.31509846" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49920928" visible="true" weight="0.31509846" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -256,7 +254,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dataIndex=list(range(m))" />
-    <option name="LAST_COMMIT_MESSAGE" value="dataIndex=list(range(m))" />
+    <MESSAGE value="Finished Chapter5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Chapter5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -270,20 +269,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch04/bayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="172" selection-start-line="172" selection-end-line="172" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch04/EXTRAS/monoDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch05/EXTRAS/README.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -294,9 +279,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch05/plot2D.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch05/plot2D.py" />
     <entry file="file://$PROJECT_DIR$/Ch05/EXTRAS/plot2D.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -309,8 +292,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch05/logRegres.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
+        <state relative-caret-position="1605">
           <caret line="107" column="26" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch04/EXTRAS/monoDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch04/bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch06/svmMLiA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+          <folding>
+            <element signature="e#98#117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
