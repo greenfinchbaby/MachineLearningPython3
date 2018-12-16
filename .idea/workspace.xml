@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="763369ba-26cb-4b5d-902c-30c3ec92cac0" name="Default Changelist" comment="Finished Chapter5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="763369ba-26cb-4b5d-902c-30c3ec92cac0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Ch06/svmMLiA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ch06/svmMLiA.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ch06/svmMLiA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+            <state relative-caret-position="525">
+              <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
               <folding>
                 <element signature="e#98#117#0" expanded="true" />
               </folding>
@@ -108,7 +107,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plot2D (1)">
+  <component name="RunManager" selected="Python.svmMLiA">
     <configuration name="bayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnMachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,8 +192,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="svmMLiA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearnMachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ch06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ch06/svmMLiA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.svmMLiA" />
         <item itemvalue="Python.plot2D (1)" />
         <item itemvalue="Python.plot2D" />
         <item itemvalue="Python.monoDemo" />
@@ -227,14 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544802279803</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Chapter 6 modified &quot;print&quot; to  &quot;print()“">
+      <created>1544967300906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544967300906</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="279" y="0" width="1920" height="1040" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49361023" visible="true" weight="0.18081181" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.5063898" side_tool="true" visible="true" weight="0.18081181" />
+      <window_info id="Structure" order="1" sideWeight="0.5063898" side_tool="true" visible="true" weight="0.18081181" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -246,7 +274,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32932165" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007907" side_tool="true" weight="0.31509846" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49920928" visible="true" weight="0.31509846" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.49920928" visible="true" weight="0.31509846" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -255,7 +283,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dataIndex=list(range(m))" />
     <MESSAGE value="Finished Chapter5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Chapter5" />
+    <MESSAGE value="Chapter 6 modified &quot;print&quot; to  &quot;print()“" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 6 modified &quot;print&quot; to  &quot;print()“" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -267,6 +296,21 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Python Console Debugger">
+        <watch expression="j" language="Python" />
+        <watch expression="j" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>j</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Ch05/EXTRAS/README.txt">
@@ -311,10 +355,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../anaconda3/envs/LearnMachineLearning/lib/python3.6/code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ch06/svmMLiA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+        <state relative-caret-position="525">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
           <folding>
             <element signature="e#98#117#0" expanded="true" />
           </folding>
