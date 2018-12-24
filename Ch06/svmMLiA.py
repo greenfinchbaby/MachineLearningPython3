@@ -236,14 +236,14 @@ def testDigits(kTup=('rbf', 10)):
     svInd=nonzero(alphas.A>0)[0]
     sVs=datMat[svInd] 
     labelSV = labelMat[svInd];
-    print ("there are %d Support Vectors") % shape(sVs)[0]
+    print ("there are %d Support Vectors" % shape(sVs)[0])
     m,n = shape(datMat)
     errorCount = 0
     for i in range(m):
         kernelEval = kernelTrans(sVs,datMat[i,:],kTup)
         predict=kernelEval.T * multiply(labelSV,alphas[svInd]) + b
         if sign(predict)!=sign(labelArr[i]): errorCount += 1
-    print ("the training error rate is: %f") % (float(errorCount)/m)
+    print ("the training error rate is: %f" % (float(errorCount)/m))
     dataArr,labelArr = loadImages('testDigits')
     errorCount = 0
     datMat=mat(dataArr); labelMat = mat(labelArr).transpose()
@@ -252,7 +252,7 @@ def testDigits(kTup=('rbf', 10)):
         kernelEval = kernelTrans(sVs,datMat[i,:],kTup)
         predict=kernelEval.T * multiply(labelSV,alphas[svInd]) + b
         if sign(predict)!=sign(labelArr[i]): errorCount += 1    
-    print( "the test error rate is: %f") % (float(errorCount)/m)
+    print( "the test error rate is: %f" % (float(errorCount)/m))
 
 
 '''#######********************************
