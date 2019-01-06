@@ -83,7 +83,7 @@ def adaBoostTrainDS(dataArr,classLabels,numIt=40):
         errorRate = aggErrors.sum()/m
         print ("total error: ",errorRate)
         if errorRate == 0.0: break
-    return weakClassArr #return weakClassArr,aggClassEst in book
+    return weakClassArr # return weakClassArr,aggClassEst in book
 
 def adaClassify(datToClass,classifierArr):
     dataMatrix = mat(datToClass)#do stuff similar to last aggClassEst in adaBoostTrainDS
