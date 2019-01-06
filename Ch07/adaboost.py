@@ -83,7 +83,7 @@ def adaBoostTrainDS(dataArr,classLabels,numIt=40):
         errorRate = aggErrors.sum()/m
         print ("total error: ",errorRate)
         if errorRate == 0.0: break
-    return weakClassArr,aggClassEst
+    return weakClassArr #return weakClassArr,aggClassEst in book
 
 def adaClassify(datToClass,classifierArr):
     dataMatrix = mat(datToClass)#do stuff similar to last aggClassEst in adaBoostTrainDS
@@ -94,7 +94,7 @@ def adaClassify(datToClass,classifierArr):
                                  classifierArr[i]['thresh'],\
                                  classifierArr[i]['ineq'])#call stump classify
         aggClassEst += classifierArr[i]['alpha']*classEst
-        print (aggClassEst)
+        print(aggClassEst)
     return sign(aggClassEst)
 
 def plotROC(predStrengths, classLabels):
