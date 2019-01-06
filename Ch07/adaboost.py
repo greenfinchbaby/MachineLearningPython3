@@ -68,17 +68,17 @@ def adaBoostTrainDS(dataArr,classLabels,numIt=40):
     aggClassEst = mat(zeros((m,1)))
     for i in range(numIt):
         bestStump,error,classEst = buildStump(dataArr,classLabels,D)#build Stump
-        #print "D:",D.T
+        print ("D:",D.T)
         alpha = float(0.5*log((1.0-error)/max(error,1e-16)))#calc alpha, throw in max(error,eps) to account for error=0
         bestStump['alpha'] = alpha  
         weakClassArr.append(bestStump)                  #store Stump Params in Array
-        #print "classEst: ",classEst.T
+        print ("classEst: ",classEst.T)
         expon = multiply(-1*alpha*mat(classLabels).T,classEst) #exponent for D calc, getting messy
         D = multiply(D,exp(expon))                              #Calc New D for next iteration
         D = D/D.sum()
         #calc training error of all classifiers, if this is 0 quit for loop early (use break)
         aggClassEst += alpha*classEst
-        #print "aggClassEst: ",aggClassEst.T
+        print ("aggClassEst: ",aggClassEst.T)
         aggErrors = multiply(sign(aggClassEst) != mat(classLabels).T,ones((m,1)))
         errorRate = aggErrors.sum()/m
         print ("total error: ",errorRate)
